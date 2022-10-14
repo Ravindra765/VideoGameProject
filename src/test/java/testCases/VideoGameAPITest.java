@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.equalTo;
 import java.util.HashMap;
 public class VideoGameAPITest {
 
-//@Test(priority = 1)
+@Test(priority = 1)
 public void test_getAllVideoGames() {
 	given()
 	.when()
@@ -50,7 +50,7 @@ public void test_addNewVideoGame() {
 	
 }
 
-@Test(priority = 3)
+//@Test(priority = 3)
 
 public void test_testVideoGame() {
 	given()
@@ -63,5 +63,7 @@ public void test_testVideoGame() {
 	
 	
 }
+
+
 
 }
